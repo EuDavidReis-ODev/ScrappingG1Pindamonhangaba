@@ -1,6 +1,6 @@
 const coletaDados = require('./crawler')
 const crawler = require('./crawler')
-var schedule = require('node-schedule')
+
 coletaDados()
-//setInterval(coletaDados, 5000*1);
+//setInterval(coletaDados, 50000*1);
 
