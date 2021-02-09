@@ -1,0 +1,19 @@
+{
+  "name": "web-crawler-youtube",
+  "version": "1.0.0",
+  "description": "Coletor de noticias de Pindamonhangaba através do G1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "David Reis",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "firebase": "^8.2.3",
+    "node-schedule": "^1.3.2",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
